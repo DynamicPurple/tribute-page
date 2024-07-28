@@ -1,0 +1,113 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    background: linear-gradient(145deg, #000000, #333333);
+    color: #f5f5f5;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1, h3 {
+    text-align: center;
+    color: #ffd700; /* Gold color for headings */
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+  
+  #img-div {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    padding-left: 40px; /* Increase padding for better readability */
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 60px; /* Increase padding for better readability */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Add margin between list items */
+  }
+  
+  blockquote {
+    border-left: 5px solid #ffd700; /* Gold border */
+    padding-left: 15px;
+    margin: 20px 0;
+    font-style: italic;
+  }
+  
+  cite {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the exciting text */
+  p#exciting-text {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffd700; /* Gold color */
+    text-shadow: 2px 2px 4px #000000; /* Shadow for 3D effect */
+    text-align: center;
+    margin: 20px 0;
+    animation: glow 1.5s ease-in-out infinite alternate;
+    font-family: 'Playfair Display', serif; /* Elegant and readable font style */
+    position: relative; /* Ensure the shadow is not blocked */
+    z-index: 1; /* Bring the text above other elements */
+  }
+  
+  /* Keyframes for the glow effect */
+  @keyframes glow {
+    from {
+      text-shadow: 2px 2px 4px #000000, 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 50px #ffd700, 0 0 60px #ffd700;
+    }
+    to {
+      text-shadow: 2px 2px 4px #000000, 0 0 20px #ffdf00, 0 0 30px #ffdf00, 0 0 40px #ffdf00, 0 0 50px #ffdf00, 0 0 60px #ffdf00, 0 0 70px #ffdf00;
+    }
+  }
+  
